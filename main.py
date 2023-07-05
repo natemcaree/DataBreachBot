@@ -9,7 +9,6 @@ import os
 import tweepy
 import pandas as pd
 import numpy as np
-######
 import matplotlib.pyplot as plt
 import re
 import spacy
@@ -120,5 +119,6 @@ sns.barplot(df3.values, df3.index, alpha=1)
 plt.title('Top Words Overall')
 plt.ylabel('Word from Tweet', fontsize=12)
 plt.xlabel('Count of Words', fontsize=12)
+plt.savefig('chart.png', bbox_inches='tight')
 plt.show()
 
