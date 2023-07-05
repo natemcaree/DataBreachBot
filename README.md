@@ -4,7 +4,10 @@
 The goal of this bot was to create a twitter page that could be a one stop shop for company breach news, faster than the outlets. Ideally it would provide keywords you could follow to keep up with.
 
 ### Method
-This databreach bot was created using Twitter's API. The idea behind this bot was to scrape tweets using stems of words like "breaching", "breached", etc. and summize them into "breach". After these tweets were scraped, I wanted to visualize the data using numpy and seaborn. The graph you see on these tweets is the culmination of what has been trending and using the keyword stems. 
+The tools used here were Python, Numpy, Pandas, Seaborn, REGEX and AWS.
+This databreach bot was created using Twitter's API. I used REGEX to find stems of words like "breaching", "breached", etc. and summize them into "breach". 
+After these tweets were scraped, I wanted to visualize the data using numpy and seaborn. 
+The graph you see on these tweets is the culmination of what has been trending and using the keyword stems.
 
 
 ### Infrastructure
